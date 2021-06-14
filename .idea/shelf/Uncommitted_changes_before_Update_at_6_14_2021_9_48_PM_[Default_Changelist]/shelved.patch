@@ -1,0 +1,24 @@
+Index: 1.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>0000000000 - changed1\r\n1111111111 - changed1\r\n2222222222\r\n3333333333\r\n4444444444\r\n5555555555\r\n6666666666\r\n7777777777\r\n8888888888 - changed2\r\n9999999999 - changed2
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/1.txt b/1.txt
+--- a/1.txt	(revision 6d546c6bde592014262af1143a514489f9688f9a)
++++ b/1.txt	(date 1623696392793)
+@@ -2,9 +2,9 @@
+ 1111111111 - changed1
+ 2222222222
+ 3333333333
+-4444444444
+-5555555555
++4444444444 - step 19
++5555555555 - step 19
+ 6666666666
+-7777777777
++7777777777 - step 20
+ 8888888888 - changed2
+ 9999999999 - changed2
+\ No newline at end of file
